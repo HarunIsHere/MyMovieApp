@@ -8,3 +8,9 @@ _static/*.html
 Test.png
 Test_rating.png
 .DS_Store
+
+__pycache__/
+*.pyc
+data/*.db
+_static/*.html
+.venv/

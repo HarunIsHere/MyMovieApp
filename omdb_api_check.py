@@ -1,11 +1,9 @@
-"""Quick OMDb API connectivity check."""
+# test_omdb_api.py
 import requests
 
 API_KEY = "3bec4110"
 
-
 def main():
-    """Call OMDb and print a small success/failure report."""
     url = "http://www.omdbapi.com/"
     params = {"apikey": API_KEY, "t": "Titanic"}
 
@@ -21,7 +19,6 @@ def main():
     else:
         print("❌ API call failed:", data.get("Error"))
         print("Full response:", data)
-
 
 if __name__ == "__main__":
     main()

@@ -7,3 +7,4 @@ data/movies.db
 _static/*.html
 Test.png
 Test_rating.png
+.DS_Store
